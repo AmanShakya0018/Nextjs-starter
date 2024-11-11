@@ -16,7 +16,6 @@ Welcome to the **Next.js Starter Project**! This repository contains starter cod
 
 Ensure you have these installed:
 
-- **Node.js** – v16.8 or higher
 - **npm** (or **yarn** or **pnpm**)
 
 ### Installation
@@ -24,32 +23,43 @@ Ensure you have these installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/nextjs-starter.git
+   git clone https://github.com/amanshakya0018/nextjs-starter.git
    cd nextjs-starter
    
-2. Install dependencies:
+# Step 2: Install Dependencies
 
-   npm install
+Once you've cloned the repository, navigate into the project folder:
 
+```bash
+cd nextjs-starter
 
-3.Environment Variables:
+### **3_set_up_environment_variables.md**
 
-Create a .env file in the root directory to store environment variables, such as:
+```markdown
+# Step 3: Set Up Environment Variables
 
+To securely store and manage configuration settings, create a `.env.local` file in the root directory of the project. This file will hold environment-specific variables.
+
+Add your environment variables to `.env.local`, such as:
+
+```plaintext
 DATABASE_URL=
-
 GOOGLE_CLIENT_ID =
-
 GOOGLE_CLIENT_SECRET =
-
 NEXTAUTH_SECRET=
-
 NEXTAUTH_URL =
+---
 
-4. Run the development server:
+### **4_run_development_server.md**
 
-   npm run dev
+```markdown
+# Step 4: Run the Development Server
 
+To start the development server, use the following command:
 
-Open http://localhost:3000 to view your project in the browser.
+```bash
+npm run dev
+# or yarn dev
+# or pnpm dev
+
 
